@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbkg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(25, 25, 25),rgba(51, 51, 51, 0.927)),url(images/pattern123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto;
+}
+.mainbkg2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(49, 49, 49),rgba(219, 219, 219, 0.927)),url(images/pattern123.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto;
+}
+.content{
+    display: block;
+    max-width: 100%;
+    top: 5%;
+    transform: translateY(30%);
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65);
+}
+.contentp{
+    display: block;
+    max-width: 100%;
+    top: 5%;
+    transform: translateY(20%);
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65);
+}
+.content2{
+    display: block;
+    max-width: 100%;
+    top: 5%;
+    transform: translateY(1%);
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65);
+}
+.content3{
+    display: block;
+    max-width: 100%;
+    top: 2%;
+    transform: translateY();
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 65, 65);
+}
+.stk{
+    display: block;
+    max-width: 100%;
+    top: 5%;
+    transform: translateY(1%);
+    text-align: center;
+    font-family: calibri;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(196, 196, 196);
+    position: sticky;
+    top: 0;
+}
+.opit{
+    max-width: 100%;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+.opit ul li{
+    text-decoration: none;
+    color: #5d8aa8;
+    position: relative;
+}
+.opit ul li ::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #ee7205;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+}
+.opit ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px;
+}
+.opit ul li a{
+    text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    font-family: calibri;
+    font-weight: bolder;
+}
+#im2{
+    max-width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+#im3{
+    max-width: 50px;
+    cursor: pointer;
+}
+#im4{
+    max-width: 50px;
+    cursor: pointer;
+}
+#cv{
+    width: 90%;
+}
+#AP{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.content h1{
+    font-family: calibri;
+    color:#ee7205;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px auto;
+    padding: 10px;
+}
+.content p{
+    font-family: calibri;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 15px;
+}
+.contentp h1{
+    font-family: calibri;
+    color: #ee7205;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px auto;
+    padding: 10px;
+}
+.contentp p{
+    font-family: calibri;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 15px;
+}
+.content2 h1{
+    font-family: calibri;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px auto;
+    padding: 10px;
+}
+.content2 p{
+    font-family: calibri;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 15px;
+}
+.content3 h1{
+    font-family: calibri;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px auto;
+    padding: 10px;
+}
+.content3 p{
+    font-family: calibri;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 15px;
+}
+.TYB{
+    padding-top: 50px;
+}
+#rt
+{
+    font-family: calibri;
+    color: #ee7205;
+    font-size: 12px;
+    padding: 3px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #5d8aa8;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #5d8aa8;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.wrapper{
+    justify-content: space-between;
+    margin-inline: auto;
+    padding: 10px;
+    transform: translateY(20%);
+    font-family: calibri;
+    font-size: 15px;
+    color: #fff;
+    width: min(81%, 7070.5rem);
+    height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
